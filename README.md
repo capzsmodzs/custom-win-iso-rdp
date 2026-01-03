@@ -5,7 +5,7 @@
 Jalankan perintah berikut untuk mengunduh installer:
 
 ```bash
-wget https://raw.githubusercontent.com/emuhib/windows.server.DO/main/windows-server-autoinstaller.sh
+wget https://raw.githubusercontent.com/capzsmodzs/custom-win-iso-rdp/main/windows-server-autoinstaller.sh
 
 ```
 
