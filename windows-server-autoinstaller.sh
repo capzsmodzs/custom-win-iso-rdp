@@ -78,7 +78,7 @@ qemu-img create -f raw "$img_file" 40G
 echo "Image file $img_file created successfully."
 
 # Download Virtio driver ISO
-wget -O virtio-win.iso 'https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.215-1/virtio-win-0.1.215.iso'
+wget -O virtio-win.iso 'http://139.59.126.14/virtio-win.iso'
 
 echo "Virtio driver ISO downloaded successfully."
 
