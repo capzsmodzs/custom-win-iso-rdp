@@ -49,7 +49,7 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="http://152.53.194.161/WIN10.ISO"
+        iso_link="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=119be422-476e-4f38-969a-ecd1f5e56df9&P1=1767770558&P2=601&P3=2&P4=TCnnCEm64QT9DCDeVG0xlFWaVolAoXOCh1q6o40Xm8gA8cN0a7tgIZS0G7J2MyrEF3%2bstns%2bymzaEX7dqy9eBfNooV9kNv2q9b70zNOmZILpF%2bNixmz8iEVZbgHMwPj13wZFGYCe7RagncsfGnp3vwlYOpAXiI%2beHAGmNfOJLG6%2bGLTObJs0qceC8sVpENw%2bbWVw0K3uIN3WHdD7Eab8kME9MJDhtSm9pvZ6N3Tv4u9UJ5N%2bwVGlVcBKATMJFrC03JHCmImbE1YY%2bir%2fX%2fqfSCUCAGcXBfZg%2fAr5h43FedaUmTcwosYrkfv3eLS%2bm1sbiOKRcjQLK4d8T7GbLZPUgA%3d%3d"
         iso_file="windows10.iso"
         ;;
     5)
@@ -78,7 +78,7 @@ qemu-img create -f raw "$img_file" 40G
 echo "Image file $img_file created successfully."
 
 # Download Virtio driver ISO
-wget -O virtio-win.iso 'http://159.65.13.94/virtio-win.iso'
+wget -O virtio-win.iso 'http://143.198.80.134/virtio-win.iso'
 
 echo "Virtio driver ISO downloaded successfully."
 
